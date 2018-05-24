@@ -1,0 +1,42 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.12.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - marketplace-gulp > gulp-livereload > tiny-lr > debug:
+        patched: '2018-05-24T03:49:09.693Z'
+  'npm:minimatch:20160620':
+    - marketplace-gulp > gulp-stylus > accord > glob > minimatch:
+        patched: '2018-05-24T03:49:09.693Z'
+    - marketplace-gulp > gulp-jshint > minimatch:
+        patched: '2018-05-24T03:49:09.693Z'
+    - commonplace > jshint > minimatch:
+        patched: '2018-05-24T03:49:09.693Z'
+    - marketplace-gulp > commonplace > jshint > minimatch:
+        patched: '2018-05-24T03:49:09.693Z'
+    - marketplace-gulp > del > globby > glob > minimatch:
+        patched: '2018-05-24T03:49:09.693Z'
+    - marketplace-gulp > gulp > vinyl-fs > glob-stream > minimatch:
+        patched: '2018-05-24T03:49:09.693Z'
+    - marketplace-gulp > gulp > vinyl-fs > glob-stream > glob > minimatch:
+        patched: '2018-05-24T03:49:09.693Z'
+    - marketplace-gulp > gulp-if > gulp-match > minimatch:
+        patched: '2018-05-24T03:49:09.693Z'
+    - marketplace-gulp > gulp-watch > path2glob > glob > minimatch:
+        patched: '2018-05-24T03:49:09.693Z'
+    - marketplace-gulp > gulp > vinyl-fs > glob-watcher > gaze > globule > minimatch:
+        patched: '2018-05-24T03:49:09.693Z'
+    - marketplace-gulp > gulp > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch:
+        patched: '2018-05-24T03:49:09.693Z'
+    - marketplace-gulp > gulp-order > minimatch:
+        patched: '2018-05-24T03:49:09.693Z'
+    - marketplace-gulp > gulp-watch > gaze > globule > minimatch:
+        patched: '2018-05-24T03:49:09.693Z'
+    - marketplace-gulp > gulp-watch > gaze > globule > glob > minimatch:
+        patched: '2018-05-24T03:49:09.693Z'
+    - marketplace-gulp > stylus > glob > minimatch:
+        patched: '2018-05-24T03:49:09.693Z'
+  'npm:ms:20151024':
+    - marketplace-gulp > gulp-livereload > tiny-lr > debug > ms:
+        patched: '2018-05-24T03:49:09.693Z'
