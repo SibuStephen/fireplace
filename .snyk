@@ -1,0 +1,48 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.12.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:minimatch:20160620':
+    - marketplace-gulp > gulp-order > minimatch:
+        patched: '2018-10-25T02:38:36.888Z'
+    - marketplace-gulp > gulp-jshint > minimatch:
+        patched: '2018-10-25T02:38:36.888Z'
+    - commonplace > jshint > minimatch:
+        patched: '2018-10-25T02:38:36.888Z'
+    - marketplace-gulp > commonplace > jshint > minimatch:
+        patched: '2018-10-25T02:38:36.888Z'
+    - gulp > vinyl-fs > glob-stream > minimatch:
+        patched: '2018-10-25T02:38:36.888Z'
+    - marketplace-gulp > del > globby > glob > minimatch:
+        patched: '2018-10-25T02:38:36.888Z'
+    - marketplace-gulp > gulp-stylus > accord > glob > minimatch:
+        patched: '2018-10-25T02:38:36.888Z'
+    - marketplace-gulp > gulp-watch > path2glob > glob > minimatch:
+        patched: '2018-10-25T02:38:36.888Z'
+    - marketplace-gulp > gulp > vinyl-fs > glob-stream > minimatch:
+        patched: '2018-10-25T02:38:36.888Z'
+    - marketplace-gulp > gulp > vinyl-fs > glob-stream > glob > minimatch:
+        patched: '2018-10-25T02:38:36.888Z'
+    - marketplace-gulp > gulp-if > gulp-match > minimatch:
+        patched: '2018-10-25T02:38:36.888Z'
+    - marketplace-gulp > gulp-watch > gaze > globule > minimatch:
+        patched: '2018-10-25T02:38:36.888Z'
+    - sherlocked > webdriverio-master > archiver > file-utils > minimatch:
+        patched: '2018-10-25T02:38:36.888Z'
+    - marketplace-gulp > gulp-watch > gaze > globule > glob > minimatch:
+        patched: '2018-10-25T02:38:36.888Z'
+    - gulp > vinyl-fs > glob-watcher > gaze > globule > minimatch:
+        patched: '2018-10-25T02:38:36.888Z'
+    - gulp > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch:
+        patched: '2018-10-25T02:38:36.888Z'
+    - marketplace-gulp > gulp > vinyl-fs > glob-watcher > gaze > globule > minimatch:
+        patched: '2018-10-25T02:38:36.888Z'
+    - marketplace-gulp > gulp > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch:
+        patched: '2018-10-25T02:38:36.888Z'
+    - marketplace-gulp > stylus > glob > minimatch:
+        patched: '2018-10-25T02:38:36.888Z'
+    - sherlocked > webdriverio-master > archiver > file-utils > glob > minimatch:
+        patched: '2018-10-25T02:38:36.888Z'
+    - sherlocked > webdriverio-master > archiver > file-utils > findup-sync > glob > minimatch:
+        patched: '2018-10-25T02:38:36.888Z'
